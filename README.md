@@ -1,15 +1,18 @@
 # BG-distribution
 
-BGdist.ZIP contains 5 Windows7 or 10 executables, useful in proton radiotherapy,  plus a folder \BGware that contains working folders for each. 
+BG-distribution is a repository of documents (BGdocs.ZIP), PowerPoint lectures, and software (BGdist.ZIP) developed over a career in proton radiotherapy. My own ideas have developed over time, so some of the material is dated and may even be wrong. See BGbibliography.PDF for an overview and citations of the more recent work.
 
-LOOKUP is a proton desk calculator with built-in help. 
+BGdist.ZIP contains executables (EXEs) useful in proton radiotherapy,  plus a folder \BGware that contains working folders for each. The EXEs were developed on a PC running Windows7 32-bit, but they appear to work also in Windows10 64-bit. They were written in Fortran and all the source code, plus a lot of irrelevant code, is in \BGware\source. 
 
-NEU designs hardware (upstream modulator and contoured scatterer) for scattered beams with arbitrary specs. 
+LOOKUP.EXE is a proton desk calculator which computes, for instance, range v. energy for various materials. No writeup, but some built-in help invoked by nonsense responses. For instance, entering "xyz" for a material will produce a list of available materials. 
 
-LAMINATE uses an existing beam, scatterers and degraders to design a laminated spread-out Bragg Peak (SOBP) to arbitrary specs. 
+NEU designs hardware (upstream modulator and contoured scatterer) for scattered beams with arbitrary specs. Single or double scattering. User Guide in BGdocs.
 
-FitDD fits measured SOBPs, pristine Bragg peaks, or transverse dose distributions using cubic spline or broken spline functions.
+LAMINATE uses an existing beam, scatterers and degraders to design a laminated spread-out Bragg Peak (SOBP) to arbitrary specs. No writeup. 
 
-BPW fits pristine Bragg peaks with a cubic spline, for use in NEU or LAMINATE or elsewhere.
+FitDD fits measured SOBPs, pristine Bragg peaks, or transverse dose distributions using cubic spline or broken cubic spline functions. Writeup in BGdocs.
 
-Install the EXEs and \BGware in any folder (such as your desktop). There are also shortcuts which you can copy to the desktop.
+BPW fits pristine Bragg peaks with a cubic spline, for use in NEU, LAMINATE or elsewhere.
+
+Install the EXEs and \BGware in any folder (such as your desktop). Icons are available if you create shortcuts. All programs except LOOKUP are file-driven and have reasonable defaults, so you can demonstrate a program by simply doing empty returns (thus accepting the value after the ? prompt). I cannot commit to support, but you can try bernardgottschalk@gmail.com if you have questions or comments.
+
