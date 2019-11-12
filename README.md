@@ -16,3 +16,4 @@ BPW fits pristine Bragg peaks with a cubic spline, for use in NEU, LAMINATE or e
 
 Install the EXEs and \BGware in any folder (such as your desktop). Icons are available if you create shortcuts. All programs except LOOKUP are file-driven and have reasonable defaults, so you can demonstrate a program by simply doing empty returns (thus accepting the value after the ? prompt). I cannot commit to support, but you can try bernardgottschalk@gmail.com if you have questions or comments.
 
+MOUSE analyzes data files produced by using a 3D printer as a 2D beam scanning device. (The technique was devised to characterize proton beams to be used in a high dose rate "flash" experiment on mice.) It is file driven and sample files are in a subfolder MOUSE. A writeup is being prepared.
